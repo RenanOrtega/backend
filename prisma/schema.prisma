@@ -30,5 +30,5 @@ model Thing {
   image            String?
   approximateValue Decimal   @default(0.0)
   categoryId       Int
-  catergory        Category? @relation(fields: [categoryId], references: [id])
+  category        Category? @relation(fields: [categoryId], references: [id])
 }
