@@ -7,6 +7,6 @@ import { AuthModule } from 'src/auth/auth.module';
 @Module({
   imports: [CommonModule, AuthModule],
   controllers: [CategoriesController],
-  providers: [CategoriesService],
+  providers: [CategoriesService]
 })
 export class CategoriesModule {}
